@@ -1,0 +1,22 @@
+{
+  "name": "personal-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "upload": "rm ./_site/Dockerfile ./_site/package.json ./_site/package-lock.json ./_site/notes ./_site/firebase.json && firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patrickskiba/personal-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patrickskiba/personal-site/issues"
+  },
+  "homepage": "https://github.com/Patrickskiba/personal-site#readme",
+  "dependencies": {
+    "firebase-tools": "^6.3.1"
+  }
+}

@@ -16,7 +16,7 @@
 title: Patrick Skiba
 email: pskiba@posteo.net
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://patrickskiba.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://patrickskiba.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
