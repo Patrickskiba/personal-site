@@ -15,8 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Patrick Skiba
 email: pskiba@posteo.net
+author: Patrick Skiba
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://patrickskiba.com" # the base hostname & protocol for your site, e.g. http://example.com
+description: Patrick Skiba's personal website where he talks about topics he is interested in
 
 # Build settings
 markdown: kramdown

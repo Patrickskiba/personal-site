@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction to systemd-nspawn"
 date:   2019-02-08 10:32:23 -0600
-categories: jekyll update
+categories: sysytemd-nspawn
 ---
 ## Containers for the desktop
 
@@ -51,6 +51,23 @@ It is important that we set a password for our root user:
 ```
 passwd
 ```
+
+And at this point it is a good idea to create a user. Most applications will refuse to run as root. 
+
+These two commands will add a user named patrick to the wheel group, and assign it a password.
+
+```
+useradd -m -G wheel -s /bin/bash patrick
+password patrick
+```
+
+You'll also want to install sudo for this new user. 
+```
+pacman -Sy sudo
+```
+Then add the wheel group to the list of sudoers by navigating to `/etc/sudoers` and deleting the comment for the line `%wheel ALL=(ALL) ALL`
+
+
 We will also start using machinectl to start and shell into our containers. However, machinectl can not shell in as root user by default. To fix this, edit your `/etc/securetty` file inside of your container and add `pts/0`.
 
 To exit the container, simply tap Ctrl + ] three times.
@@ -105,4 +122,4 @@ Since this container is just for my accounting software stack, I will opt out of
 
 Hopefully you now have a basic understanding of how and when to use systemd-nspawn. In the next tutorial I will discuss how to enable graphical applications and sound in your container. 
 
-For questions and comments feel free to email me at pskiba@posteo.net
+For questions and comments feel free to email me at [pskiba@posteo.net](mailto:pskiba@posteo.net).
