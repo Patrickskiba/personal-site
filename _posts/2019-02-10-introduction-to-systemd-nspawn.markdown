@@ -58,7 +58,7 @@ These two commands will add a user named patrick to the wheel group, and assign 
 
 ```
 useradd -m -G wheel -s /bin/bash patrick
-password patrick
+passwd patrick
 ```
 
 You'll also want to install sudo for this new user. 
