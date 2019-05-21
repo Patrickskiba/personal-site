@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "upload": "rm ./_site/Dockerfile ./_site/package.json ./_site/package-lock.json ./_site/notes ./_site/firebase.json && firebase deploy"
+    "upload": "rm ./_site/Dockerfile ./_site/package.json ./_site/package-lock.json ./_site/firebase.json && firebase deploy"
   },
   "repository": {
     "type": "git",

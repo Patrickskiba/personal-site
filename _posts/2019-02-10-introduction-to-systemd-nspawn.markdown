@@ -67,6 +67,11 @@ pacman -Sy sudo
 ```
 Then add the wheel group to the list of sudoers by navigating to `/etc/sudoers` and deleting the comment for the line `%wheel ALL=(ALL) ALL`
 
+If you find that your terminal is not functioning properly and you're using urxvt, you need to install the terminfo for urxvt:
+```
+pacman -S rxvt-unicode-terminfo
+```
+
 
 We will also start using machinectl to start and shell into our containers. However, machinectl can not shell in as root user by default. To fix this, edit your `/etc/securetty` file inside of your container and add `pts/0`.
 
