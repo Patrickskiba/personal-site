@@ -1,7 +1,7 @@
 --- 
 layout: post
 title:  "How I increased my productivity this year"
-date:   2019-06-29 08:32:23 -0600
+date:   2019-06-29 08:32:23 -0400
 categories: org-mode
 ---
 ## Problem
