@@ -4,7 +4,6 @@ title:  "How I increased my productivity this year"
 date:   2019-06-29 08:32:23 -0400
 categories: org-mode
 ---
-## Problem
 I often have a lot of ideas for potential projects or tasks that I want to work on, but up until very recently I have had difficulty staying motivated and finishing anything.
 
 For years I have tried to work on these projects after work or on the weekends, but I have been unable to consistently keep any sort of routine.

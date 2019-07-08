@@ -149,7 +149,9 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  color: #333332;
+  font-weight: 700;
+  font-size: 32px;
 }
 
 
@@ -163,13 +165,25 @@
 
 .post-title,
 .post-content h1 {
-  @include relative-font-size(2.625);
+  @include relative-font-size(2.25);
+  font-weight: 600;
   letter-spacing: -1px;
   line-height: 1;
+  color: #111;
 
   @media screen and (min-width: $on-large) {
-    @include relative-font-size(2.625);
+    @include relative-font-size(2.25);
   }
+}
+
+.post-title h2{
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-style: normal;
+  display: block;
+  font-size: 36px;
+  line-height: 1.15;
+  margin: 0 0;
 }
 
 .post-content {
@@ -198,4 +212,9 @@
       @include relative-font-size(1.25);
     }
   }
+}
+
+.content-article {
+  border-bottom: 1px solid #f2f2f0;
+  padding: 20px 0;
 }

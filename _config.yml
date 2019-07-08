@@ -19,6 +19,7 @@ author: Patrick Skiba
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://patrickskiba.com" # the base hostname & protocol for your site, e.g. http://example.com
 description: Patrick Skiba's personal website where he talks about topics he is interested in
+show_excerpts: true
 
 # Build settings
 markdown: kramdown

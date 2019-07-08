@@ -4,8 +4,6 @@ title:  "Introduction to systemd-nspawn"
 date:   2019-02-08 10:32:23 -0600
 categories: sysytemd-nspawn
 ---
-## Containers for the desktop
-
 Managing software on your Linux desktop can be messy; installations via `Pacman/Apt/DNF` are typically global, dependencies can conflict, and running multiple versions of the same software can be challenging.
 
 Additionally, as you install more and more software, they begin to pollute your home directory.
