@@ -1,0 +1,78 @@
+[debug] [2019-07-09T23:01:57.646Z] ----------------------------------------------------------------------
+[debug] [2019-07-09T23:01:57.648Z] Command:       /usr/bin/node /home/patrick/Code/personal-site/node_modules/.bin/firebase deploy
+[debug] [2019-07-09T23:01:57.648Z] CLI Version:   7.0.2
+[debug] [2019-07-09T23:01:57.648Z] Platform:      linux
+[debug] [2019-07-09T23:01:57.648Z] Node Version:  v11.15.0
+[debug] [2019-07-09T23:01:57.648Z] Time:          Tue Jul 09 2019 19:01:57 GMT-0400 (Eastern Daylight Time)
+[debug] [2019-07-09T23:01:57.648Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-09T23:01:57.652Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-09T23:01:57.652Z] > authorizing via signed-in user
+[debug] [2019-07-09T23:01:57.652Z] [iam] checking project patrickskiba for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-07-09T23:01:57.653Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/patrickskiba:testIamPermissions  
+
+[debug] [2019-07-09T23:01:57.958Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-09T23:01:57.965Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/patrickskiba  
+ 
+[debug] [2019-07-09T23:01:58.310Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'patrickskiba'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-07-09T23:01:58.315Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/patrickskiba/versions  
+
+[debug] [2019-07-09T23:01:59.096Z] <<< HTTP RESPONSE 200
+[info] i  hosting[patrickskiba]: beginning deploy...
+[info] i  hosting[patrickskiba]: found 23 files in _site
+[debug] [2019-07-09T23:01:59.107Z] [hosting] hash cache [X3NpdGU] load error: lines is not defined
+[debug] [2019-07-09T23:01:59.125Z] [hosting] hash cache [X3NpdGU] stored for 23 files
+[debug] [2019-07-09T23:01:59.125Z] [hosting][hash queue][FINAL]
+[debug] [2019-07-09T23:01:59.125Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/patrickskiba/versions/071d8147daa720c0:populateFiles  
+ <request body omitted>
+[debug] [2019-07-09T23:02:00.120Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-09T23:02:00.124Z] [hosting][populate queue][FINAL]
+[debug] [2019-07-09T23:02:00.124Z] [hosting] uploads queued: 1
+[debug] [2019-07-09T23:02:00.819Z] [hosting][upload] feed.xml (42a6be37577dc0e8326f33f19d2ff788e256a84bd20c6181539cb1a787ddf959) HTTP ERROR 400 : { 'x-guploader-uploadid':
+   'AEnB2UpDq12_urqUWMVUN-vp_J7V-DpjkP-tbex3ku8BHF2_kcUYxaTvpBnuHLP8XUka0yxJltdU6hs_5xJ2JQzgeDfglI-stu7Hg5wPNxXPWUbtq8v9cLA',
+  'content-length': '37',
+  date: 'Tue, 09 Jul 2019 23:02:00 GMT',
+  server: 'UploadServer',
+  'content-type': 'text/html; charset=UTF-8',
+  'alt-svc': 'quic=":443"; ma=2592000; v="46,43,39"',
+  connection: 'close' } Couldn't process request (status=400)
+[debug] [2019-07-09T23:02:01.225Z] [uploadQueue] Retrying task 42a6be37577dc0e8326f33f19d2ff788e256a84bd20c6181539cb1a787ddf959
+[debug] [2019-07-09T23:02:01.824Z] [hosting][upload] feed.xml (42a6be37577dc0e8326f33f19d2ff788e256a84bd20c6181539cb1a787ddf959) HTTP ERROR 400 : { 'x-guploader-uploadid':
+   'AEnB2Up4SWGmsUW9QO95OsiTWI_F9WxGHyM91IZTHDPIcw1BoBADBQS8PUHFxz-_AEK_TwD7LHwq4o8ei1-tfwO_HheK2A7elA',
+  'content-length': '37',
+  date: 'Tue, 09 Jul 2019 23:02:01 GMT',
+  server: 'UploadServer',
+  'content-type': 'text/html; charset=UTF-8',
+  'alt-svc': 'quic=":443"; ma=2592000; v="46,43,39"',
+  connection: 'close' } Couldn't process request (status=400)
+[debug] [2019-07-09T23:02:02.626Z] [uploadQueue] Retrying task 42a6be37577dc0e8326f33f19d2ff788e256a84bd20c6181539cb1a787ddf959
+[debug] [2019-07-09T23:02:03.174Z] [hosting][upload] feed.xml (42a6be37577dc0e8326f33f19d2ff788e256a84bd20c6181539cb1a787ddf959) HTTP ERROR 400 : { 'x-guploader-uploadid':
+   'AEnB2UpA4SDzwbR3m_64-8G2dSiE6dfR_gUALaxHRsrMvLrxhZNYmLkKGjzg_YjEu-NhvHdzRvaJfNlsRTNCaUnEYASEjw6kGw',
+  'content-length': '37',
+  date: 'Tue, 09 Jul 2019 23:02:03 GMT',
+  server: 'UploadServer',
+  'content-type': 'text/html; charset=UTF-8',
+  'alt-svc': 'quic=":443"; ma=2592000; v="46,43,39"',
+  connection: 'close' } Couldn't process request (status=400)
+[debug] [2019-07-09T23:02:04.775Z] [uploadQueue] Retrying task 42a6be37577dc0e8326f33f19d2ff788e256a84bd20c6181539cb1a787ddf959
+[debug] [2019-07-09T23:02:05.357Z] [hosting][upload] feed.xml (42a6be37577dc0e8326f33f19d2ff788e256a84bd20c6181539cb1a787ddf959) HTTP ERROR 400 : { 'x-guploader-uploadid':
+   'AEnB2Uq8bb3vFu9pcxK25bGWS_RRDzGXVt5kgGuntG90MEGwemcjskrnb4hOJ02e6p_LzLoaGenp3cb5dkkEbs7QJe38rLUleQ',
+  'content-length': '37',
+  date: 'Tue, 09 Jul 2019 23:02:05 GMT',
+  server: 'UploadServer',
+  'content-type': 'text/html; charset=UTF-8',
+  'alt-svc': 'quic=":443"; ma=2592000; v="46,43,39"',
+  connection: 'close' } Couldn't process request (status=400)
+[debug] [2019-07-09T23:02:08.558Z] [uploadQueue] Retrying task 42a6be37577dc0e8326f33f19d2ff788e256a84bd20c6181539cb1a787ddf959
+[debug] [2019-07-09T23:02:09.021Z] [hosting][upload] feed.xml (42a6be37577dc0e8326f33f19d2ff788e256a84bd20c6181539cb1a787ddf959) HTTP ERROR 400 : { 'x-guploader-uploadid':
+   'AEnB2UoYh040VD27KSqoPMiTjjbxNYibTCoXOybYfPf3TnHeWpXxKZ2cu5kvY5dk_xUb2Bas9evC3-rWqKSmU2M_ZpxNqr6ldg',
+  'content-length': '37',
+  date: 'Tue, 09 Jul 2019 23:02:08 GMT',
+  server: 'UploadServer',
+  'content-type': 'text/html; charset=UTF-8',
+  'alt-svc': 'quic=":443"; ma=2592000; v="46,43,39"',
+  connection: 'close' } Couldn't process request (status=400)
