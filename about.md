@@ -14,7 +14,7 @@ While I do have my preferences, I don't label myself as an "insert framework her
 
 My experience ranges from:
 - Creating multiple React/Node web apps and successfully deploying them to production to tens of thousands of users
-- Maintaining legacy VB Dotnet APIs that few dare to touch
+- Maintaining legacy VB.NET APIs that few dare to touch
 - Working on the first iOS app in my department which has recieved many accolades for its increase in employee efficiency and cost-saving benefits
 
 
@@ -31,7 +31,7 @@ My experience ranges from:
 - Though I don't do this as often as I would like, I enjoy a day of rock climbing at the local rock climbing gym. 
 - Cats, I love cats. This is my cat, Pete:
 <div style="text-align: center;margin: 10px;">
-<img style="width: 50%;" src="/assets/images/pete.jpg" alt="Pete my Cat" />
+<amp-img style="width: 50%;" src="/assets/images/pete.jpg" alt="Pete my Cat" />
 </div>
 
 ## What Powers This Site

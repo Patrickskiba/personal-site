@@ -1,5 +1,7 @@
 _site
 .sass-cache
 .jekyll-metadata
+firebase-debug.log
+.firebase
 notes
 node_modules

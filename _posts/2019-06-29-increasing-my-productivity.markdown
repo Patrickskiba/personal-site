@@ -17,7 +17,10 @@ This April I stumbled upon a video titled "[# 0430 Club (Josh)](https://www.yout
 After a little over two months, setting back my alarm clock 1 1/2 hours each morning has been the most impactful trick to boosting my motivation and productivity ever.
 
 Due to this change, I've been able to hold my longest ever GitHub commit streak, which is still going strong at 2.5 months of daily commits.
-![Commit Streak](/assets/images/increase-productivity/commit-streak.png)
+
+<div>
+<amp-img height="240" width="983" layout="responsive" src="/assets/images/increase-productivity/commit-streak.png" alt="Commit Streak" />
+</div>
 
 There are several reasons why I believe this made such a positive impact on me:
 1. Fewer distractions - Nobody will be messaging you at 4:30 in the morning.
