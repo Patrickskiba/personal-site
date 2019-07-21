@@ -30,12 +30,9 @@ My experience ranges from:
 - In recent years I've gained an appreciation for Connecticut's craft brewery scene. Living in Hartford, I have access to great local gems such as [Hanging Hills](http://www.hanginghillsbrewery.com/) and [Hog River](https://www.hogriverbrewing.com/).
 - Though I don't do this as often as I would like, I enjoy a day of rock climbing at the local rock climbing gym. 
 - Cats, I love cats. This is my cat, Pete:
-<div style="text-align: center;margin: 10px;">
-<amp-img style="width: 50%;" src="/assets/images/pete.jpg" alt="Pete my Cat" />
-</div>
 
 <div>
-<amp-img height="502" width="800" layout="responsive" src="/assets/images/pete.jpg" alt="Pete my Cat" />
+<amp-img class="pete" height="800" width="502" layout="responsive" src="/assets/images/pete.jpg" alt="Pete my Cat" />
 </div>
 
 ## What Powers This Site
