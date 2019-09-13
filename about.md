@@ -21,7 +21,7 @@ My experience ranges from:
 ## My Hobbies and Interests
 
 #### Technology Related:
-- Vim, paricularly [Neovim](https://neovim.io/), is my editor of choice at home. It is an editor so powerful that you can learn something new each day and still have so much more to learn.
+- Emacs, is my editor of choice at home. It is an editor so powerful that you can learn something new each day and still have so much more to learn.
 - I keep many notes to stay organized, my primary tool for this is [Org-mode](https://orgmode.org/). Due to its lack of portability, I maintain a companion app called [Web-org](https://github.com/Patrickskiba/weborg) that I hope will one day surpass similar projects currently available.
 - I enjoy learning about Unix and how to use standard Unix utilities such as awk, sed, and grep. As a Linux and Mac user, being familar with your system and the software that comes with it is very useful.
 

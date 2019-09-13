@@ -72,9 +72,23 @@ If you don't already have Typescript, you should install it through npm.
 npm install -g typescript
 ```
 
-Flycheck will also require a backend to use. You can install esLint, but I prefer Standard as my linter and you should too.
+Flycheck will also require a backend to use. You can install esLint, but I prefer Standard as my linter and you should too. However, Standard isn't fully compatible with my prefered formatter, Prettier, so we will need to install StandardX which allows some additional customizability.
 ```
-npm install -g standard
+npm install -g standardx
+```
+After you install Standardx, create a folder in your directory named .eslintrc and put the following contents in the file to disable the 'space before function paren' requirement. This is a linting feature that isn't compatible with Prettier.
+
+```
+{
+  "rules": {
+      "space-before-function-paren": ["error", "never"],
+  }
+}
+```
+
+In your Emacs config you'll want to set StandardX as the executable for default Standard.
+```
+(flycheck-javascript-standard-executable "/usr/bin/standardx")
 ```
 
 In the root of your project you'll also want to create a folder called jsconfig.json with the following settings for TIDE to use.
