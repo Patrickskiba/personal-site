@@ -76,7 +76,7 @@ Flycheck will also require a backend to use. You can install esLint, but I prefe
 ```
 npm install -g standardx
 ```
-After you install Standardx, create a folder in your directory named .eslintrc and put the following contents in the file to disable the 'space before function paren' requirement. This is a linting feature that isn't compatible with Prettier.
+After you install StandardX, create a file in your project directory named .eslintrc and put the following contents in the file to disable the 'space before function paren' requirement. This is a linting feature that isn't compatible with Prettier.
 
 ```
 {
