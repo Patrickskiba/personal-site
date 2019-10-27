@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Password Management with the Pass and Emacs"
+title:  "Password Management with Pass and Emacs"
 date:   2019-09-18 07:20:23 -0400
 categories: unix tools
 ---

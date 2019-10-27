@@ -16,6 +16,20 @@
 title: Patrick Skiba
 email: pskiba@posteo.net
 author: Patrick Skiba
+social:
+  name: Patrick Skiba
+  links:
+    - https://twitter.com/patrickskiba
+    - https://github.com/Patrickskiba
+    - https://www.instagram.com/skibap
+    - https://www.linkedin.com/in/patrick-skiba-21a78410a/
+    - https://news.ycombinator.com/user?id=pskiba
+twitter:
+  username: patrickskiba
+  card: summary
+
+logo: /assets/icons/favicon.ico
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://patrickskiba.com" # the base hostname & protocol for your site, e.g. http://example.com
 description: Patrick Skiba's personal website where he talks about topics he is interested in

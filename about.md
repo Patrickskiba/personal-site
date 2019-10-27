@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi, my name is Patrick Skiba and I'm a software developer living in Hartford, CT. 
 
-You can find me on [Github](https://github.com/patrickskiba), [Instagram](https://www.instagram.com/skibap/), or you can write me an email at [pskiba@posteo.net](mailto:pskiba@posteo.net).
+You can find me on [Github](https://github.com/patrickskiba), [Instagram](https://www.instagram.com/skibap/), [Linkedin](https://www.linkedin.com/in/patrick-skiba-21a78410a), or you can write me an email at [pskiba@posteo.net](mailto:pskiba@posteo.net).
 
 ## Experience
 

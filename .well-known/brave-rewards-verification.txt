@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: patrickskiba.com
+Token: 12d44b91511a95229bcc715a39c043f20cc5fe79e584cb9f09aecabf34261e23
