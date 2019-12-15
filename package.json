@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "upload": "rm ./_site/Dockerfile ./_site/package.json ./_site/package-lock.json ./_site/firebase.json && cp -r ./.well-known ./_site/.well-known && firebase deploy --debug"
+    "upload": "JEKYLL_ENV=production bundle exec jekyll build && rm ./_site/Dockerfile ./_site/package.json ./_site/package-lock.json ./_site/firebase.json && cp -r ./.well-known ./_site/.well-known && firebase deploy --debug"
   },
   "repository": {
     "type": "git",
