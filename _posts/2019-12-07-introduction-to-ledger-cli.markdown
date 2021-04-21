@@ -26,9 +26,7 @@ Debits - Increase an asset or expense account, or decrease a liability or equity
 
 Credits- Increase a liability or equity account, or decrease an asset or expense account.
 
-<div style="margin-top: 15px; margin-bottom: 15px">
-<amp-img height="706" width="1270" layout="responsive"  src="/assets/images/intro-to-ledger/double-entry.png" alt="Examples accounts in double entry accounting" />
-</div>
+<img src="/assets/images/intro-to-ledger/double-entry.png" alt="Examples accounts in double entry accounting" />
 
 If you're not an expert yet after looking at this picture, that's fine. I find examples make the concepts more understandable so let's go over some examples of common transactions after we install Ledger.
 
@@ -88,9 +86,7 @@ ledger -f main.ledger bal
 
 You should see the following output from that command:
 
-<div style="margin-top: 15px; margin-bottom: 15px">
-<amp-img height="100" width="403" layout="responsive"  src="/assets/images/intro-to-ledger/simple-starting-bal.png" alt="Example of basic ledger balance report" />
-</div>
+<img src="/assets/images/intro-to-ledger/simple-starting-bal.png" alt="Example of basic ledger balance report" />
 
 Let's modify this entry to include more accounts, including some investments.
 
@@ -108,9 +104,7 @@ Ledger will allow the dollar value of one account to be omitted. In this example
 
 If we were to run the previous command again, Ledger would not calculate the dollar value of my investments. Instead, Ledger would return the value of my account in quantity of Dogecoin. Personally, I prefer to see everything in the same currency, so I use the `-V` flag to have investment values be calculated into my preferred currency.
 
-<div style="margin-top: 15px; margin-bottom: 15px">
-<amp-img height="166" width="409" layout="responsive"  src="/assets/images/intro-to-ledger/complete-starting-bal.png" alt="Example of ledger showing how much dogecoin I have" />
-</div>
+<img src="/assets/images/intro-to-ledger/complete-starting-bal.png" alt="Example of ledger showing how much dogecoin I have" />
 
 ## Everyday transactions
 I primarily purchase things with my credit card and then pay off my credit card at the end of each month. 
@@ -143,9 +137,7 @@ If you don't use a credit card, then you would use your **Assets:Checking** or *
 
 If you run the balance command again, you'll see that the **Liabilites** account is now in the negative. This value will need to be brought to zero within a month in order to avoid paying interest to the credit card company.
 
-<div style="margin-top: 15px; margin-bottom: 15px">
-<amp-img height="263" width="458" layout="responsive"  src="/assets/images/intro-to-ledger/expenses-with-credit-card.png" alt="Example of ledger after spending alot of money on my credit card" />
-</div>
+<img src="/assets/images/intro-to-ledger/expenses-with-credit-card.png" alt="Example of ledger after spending alot of money on my credit card" />
 
 Since I don't have sufficient funds to pay off my credit card from my checking account, I will have to sell off my Dogecoin investments and move that money to my checking account.
 
@@ -165,9 +157,8 @@ Now that I have enough money in my checking account to pay off my credit card, l
     Assets:Patrick:Checking 
 ```
 
-<div style="margin-top: 15px; margin-bottom: 15px">
-<amp-img height="247" width="606" layout="responsive"  src="/assets/images/intro-to-ledger/payed-off-card.png" alt="Example of ledger after paying off credit cards" />
-</div>
+<img src="/assets/images/intro-to-ledger/payed-off-card.png" alt="Example of ledger after paying off credit cards" />
+
 You'll see that the **Liabilites** account is no longer returned because that account no longer has a value.
 
 Most people with jobs will also recieve money in the form of income, so here is an example of your typical paycheck transaction to a checking account.
@@ -178,9 +169,7 @@ Most people with jobs will also recieve money in the form of income, so here is 
     Income:Work
 ```
 
-<div style="margin-top: 15px; margin-bottom: 15px">
-<amp-img height="265" width="609" layout="responsive"  src="/assets/images/intro-to-ledger/balance-example.png" alt="Example of ledger after pay day" />
-</div>
+<img src="/assets/images/intro-to-ledger/balance-example.png" alt="Example of ledger after pay day" />
 
 ## Ledger Configuration
 Typing in the `-V` flag every time I check my balance isn't very convenient, and I know that I'm going to forget to add it at some point later. This leaves me with that undesired ledger balance consisting of mixed currencies rather than all USD. While there are many ways to fix this, I prefer to use the `~/.ledgerrc` file.
@@ -196,24 +185,23 @@ Now if you run `ledger -f main.ledger bal`, you'll get the same results as if yo
 There are 4 primary reporting commands: 
 ### Register
 This will produce a list of transactions as they occur over time similar to a checkbook.
-<div style="margin-top: 15px; margin-bottom: 15px">
-<amp-img height="394" width="612" layout="responsive"  src="/assets/images/intro-to-ledger/register-example.png" alt="Examples accounts in double entry accounting" />
-</div>
+
+<img src="/assets/images/intro-to-ledger/register-example.png" alt="Examples accounts in double entry accounting" />
+
 ### Balance 
 This will print out the balance of every account that has a value.
-<div style="margin-top: 15px; margin-bottom: 15px">
-<amp-img height="265" width="609" layout="responsive"  src="/assets/images/intro-to-ledger/balance-example.png" alt="Examples accounts in double entry accounting" />
-</div>
+
+<img src="/assets/images/intro-to-ledger/balance-example.png" alt="Examples accounts in double entry accounting" />
+
 ### Equity 
 Equity is useful if you are starting a new ledger file and would like to roll over all of your accounts from the previous ledger. It will essentially produce the first `Opening Balances` transaction that you can use.
-<div style="margin-top: 15px; margin-bottom: 15px">
-<amp-img height="251" width="606" layout="responsive"  src="/assets/images/intro-to-ledger/equity-example.png" alt="Examples accounts in double entry accounting" />
-</div>
+
+<img src="/assets/images/intro-to-ledger/equity-example.png" alt="Examples accounts in double entry accounting" />
+
 ### Print 
 This will print out the file in its pure text format.
-<div style="margin-top: 15px; margin-bottom: 15px">
-<amp-img height="696" width="611" layout="responsive"  src="/assets/images/intro-to-ledger/print-example.png" alt="Examples accounts in double entry accounting" />
-</div>
+
+<img src="/assets/images/intro-to-ledger/print-example.png" alt="Examples accounts in double entry accounting" />
 
 ## Building reporting queries
 Querying allows you to filter down reports to specific periods of time and individual/compound accounts. Here are a couple common queries that you can run, which you can then modify to suit your needs.

@@ -7,38 +7,51 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Patrick Skiba
+
+title: Gnu/Meme - Patrick Skiba
 email: pskiba@posteo.net
-author: Patrick Skiba
-social:
-  name: Patrick Skiba
-  links:
-    - https://twitter.com/patrickskiba
-    - https://github.com/Patrickskiba
-    - https://www.instagram.com/skibap
-    - https://www.linkedin.com/in/patrick-skiba-21a78410a/
-    - https://news.ycombinator.com/user?id=pskiba
-twitter:
-  username: patrickskiba
-  card: summary
-
-logo: /assets/icons/favicon.ico
-
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://patrickskiba.com" # the base hostname & protocol for your site, e.g. http://example.com
-description: Patrick Skiba's personal website where he talks about topics he is interested in
+url: "https://gnuslashmeme.com" # the base hostname & protocol for your site, e.g. http://example.com
+description: Gnu/Meme is Patrick Skiba's personal website where he talks about topics he is interested in
 show_excerpts: true
 
+author:
+  name: Patrick Skiba
+  email: "pskiba@posteo.net"
+
+github_username: patrickskiba 
+
 # Build settings
-markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-minifier
-  - jekyll-sitemap
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

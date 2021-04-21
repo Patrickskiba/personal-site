@@ -79,12 +79,6 @@ That subgroup can then be added to, and viewed via, the prefix name you gave it.
 pass insert TeamPasswords/SQL/DEV
 ```
 
-<div>
-<amp-ad width="100vw" height="320" type="adsense" data-ad-client="ca-pub-3392919614221850" data-ad-slot="2178961690" data-auto-format="rspv" data-full-width>
-      <div overflow></div>
-</amp-ad>
-</div>
-
 ## Git Integration
 Git integration is super simple. Pass provides a command to initialize a new git repository to keep track of your password changes. Simply run:
 
@@ -107,9 +101,7 @@ If you are a sophisticated individual who partakes in the finer things in life, 
 
 Install the [pass](https://melpa.org/#/pass) library from melpa and you're good to go. Run pass from M-x and you'll be greeted with this lovely UI.
 
-<div>
-<amp-img  height="683" width="1247" layout="responsive" src="/assets/images/pass-cli/emacs-pass.png" alt="Emacs Pass Package" />
-</div>
+<img src="/assets/images/pass-cli/emacs-pass.png" alt="Emacs Pass Package" />
 
 The top area reminds the user of all the keyboard commands available. With just a few keystrokes you can select an account, copy a password, launch your browser of choice, and have that password be cleared from your clipboard in 45 seconds.
 

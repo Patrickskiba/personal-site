@@ -36,9 +36,7 @@ This plugin alleviated a great deal of the slowdown I experienced when moving aw
 
 Avy has several functions you can call to complete your cursor navigation, with **avy-goto-char-timer** as my preferred command. With this function, you can type as many characters as you want and as soon as you stop typing the decision tree pops up to ask which word you would like to jump to. I prefer this to the one char or two char versions because I like fewer options in my decision tree.
 
-<div>
-<amp-img height="683" width="1254" layout="responsive" src="/assets/images/two-weeks-without-evil/avy.png" alt="Spacemacs Screenshot" />
-</div>
+<img src="/assets/images/two-weeks-without-evil/avy.png" alt="Spacemacs Screenshot" />
 
 
 Jumping was not Avy's only feature, as it provided ways to easily copy and delete entire lines and regions. With just a few key strokes you could copy an arbitrary range of lines without even needing to navigate over to that part of the screen.
@@ -50,9 +48,7 @@ Evil, the emulator of Vim keybindings, is of course the big one, but this challe
 
 It's a modal style of key bindings with two modes, insert and command. Insert mode behaves much like insert mode in Vim; the user types and those characters appear on the screen. Command mode is similar to normal mode, but the keys have been rearranged and simplified. Below is the default qwerty layout for command mode.
 
-<div>
-<amp-img height="500" width="1254" layout="responsive" src="/assets/images/two-weeks-without-evil/xah-fly-querty.svg" alt="Xah Fly Qwerty Layout" />
-</div>
+<img src="/assets/images/two-weeks-without-evil/xah-fly-querty.svg" alt="Xah Fly Qwerty Layout" />
 
 
 The most commonly hit keys are placed in the home row with the least common placed on both the bottom row and the number row (these being the hardest rows to hit). This is one of the few times I've seen a keybinding layout take into account the frequency of the commands being called and where they would be most comfortable to use.
@@ -63,9 +59,7 @@ I think the navigation keys are an improvement when compared to Vim. For instanc
 ### Which-key
 The [which-key](https://github.com/justbur/emacs-which-key) plugin is probably something a lot of people have seen but they don't actually know what it's called. It's prominently featured in the editor Spacemacs as the contextual menu that pops up when hitting the space bar, guiding the user to the command they are trying to use.
 
-<div>
-<amp-img height="683" width="1254" layout="responsive" src="/assets/images/two-weeks-without-evil/spacemacs.png" alt="Spacemacs Screenshot" />
-</div>
+<img src="/assets/images/two-weeks-without-evil/spacemacs.png" alt="Spacemacs Screenshot" />
 
 I dislike forgetting a random key binding in Vim and having to look it up on Google. Which-key solves that by displaying all of the bindings under a given prefix. If you organize the majority of your key bindings under a single prefix and have them categorized, then your keys become more easily discoverable such as "window manipulation commands" under **w** and all "project commands" under **p**.
 

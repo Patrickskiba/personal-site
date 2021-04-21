@@ -18,9 +18,7 @@ After a little over two months, setting back my alarm clock 1 1/2 hours each mor
 
 Due to this change, I've been able to hold my longest ever GitHub commit streak, which is still going strong at 2.5 months of daily commits.
 
-<div>
-<amp-img height="240" width="983" layout="responsive" src="/assets/images/increase-productivity/commit-streak.png" alt="Commit Streak" />
-</div>
+<img src="/assets/images/increase-productivity/commit-streak.png" alt="Commit Streak" />
 
 There are several reasons why I believe this made such a positive impact on me:
 1. Fewer distractions - Nobody will be messaging you at 4:30 in the morning.

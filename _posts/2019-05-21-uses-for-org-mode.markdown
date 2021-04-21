@@ -13,9 +13,7 @@ I misplace things all the time in my house. This is mostly due to the fact that 
 
 My solution is to keep a catalog of the contents of every single bin in the house, like so:
 
-<div>
-<amp-img height="683" width="1254" layout="responsive" src="/assets/images/org-mode-uses/item_catalog.png" alt="Household Catalog Screenshot" />
-</div>
+<img src="/assets/images/org-mode-uses/item_catalog.png" alt="Household Catalog Screenshot" />
 
 The general strategy is as such:
 
@@ -39,15 +37,11 @@ I primarily make use of org-babel's ability to work with Emacs config files and 
 ### Annotated Emacs Configs
 Config files can often be terse, unorganized, and jumbled together. Using org-babel, it's possible to mix org-mode style notation, with chunks of elisp snippets, to create a configuration that is less cumbersome. I can organize parts of my config inside collapsible headlines where they can be hidden until I need to read them. Through Org-mode I can annotate more elegantly than what is typically possible with the native comments most config files support. 
 
-<div>
-<amp-img height="706" width="1270" layout="responsive"  src="/assets/images/org-mode-uses/annotated_config.png" alt="Org-babel embedded emacs config" />
-</div>
+<img src="/assets/images/org-mode-uses/annotated_config.png" alt="Org-babel embedded emacs config" />
 
 Finally, when the config is ready and is checked into GitHub, it gets nicely formatted for other people's reading pleasure. 
 
-<div>
-<amp-img  height="587" width="1161" layout="responsive" src="/assets/images/org-mode-uses/github_preview.png" alt="Github rendered org file" />
-</div>
+<img src="/assets/images/org-mode-uses/github_preview.png" alt="Github rendered org file" />
 
 This coding style of treating annotation as a first class citizen is inspired by the Literate Programming techniques invented by Donald Knuth for his book series *The Art of Programming*.
 
@@ -57,9 +51,7 @@ I fully endorse keeping track of your finances using a [plain text accounting](h
 ## Prioritized Todo List
 I'm most productive when I have a prioritized list of things to do, otherwise I end up getting overwhelmed with what I should do next. Additionally, I often have ideas of things I should do in the future, but if don't write them down I will forget them and those ideas get lost in the abyss. 
 
-<div>
-<amp-img  height="685" width="1252" layout="responsive" src="/assets/images/org-mode-uses/todo_list.png" alt="Org-mode todo list" />
-</div>
+<img src="/assets/images/org-mode-uses/todo_list.png" alt="Org-mode todo list" />
 
 Emacs makes creating these task lists incredibly easy with built-in support for: 
  - marking things as TODO or DONE
