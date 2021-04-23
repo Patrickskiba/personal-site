@@ -25,10 +25,6 @@ url: "https://gnuslashmeme.com" # the base hostname & protocol for your site, e.
 description: Gnu/Meme is Patrick Skiba's personal website where he talks about topics he is interested in
 show_excerpts: true
 
-author:
-  name: Patrick Skiba
-  email: "pskiba@posteo.net"
-
 github_username: patrickskiba 
 
 # Build settings
