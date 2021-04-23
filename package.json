@@ -1,0 +1,22 @@
+{
+    "name": "personal-blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "upload": "JEKYLL_ENV=production bundle exec jekyll build && rm ./_site/package.json ./_site/package-lock.json && cp -r ./.well-known ./_site/.well-known && firebase deploy --debug"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Patrickskiba/personal-site.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Patrickskiba/personal-site/issues"
+    },
+    "homepage": "https://github.com/Patrickskiba/personal-site#readme",
+    "dependencies": {
+        "firebase-tools": "9.10.0"
+    }
+}

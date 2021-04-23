@@ -5,3 +5,4 @@ firebase-debug.log
 .firebase
 notes
 node_modules
+.jekyll-cache
