@@ -17,6 +17,6 @@
     },
     "homepage": "https://github.com/Patrickskiba/personal-site#readme",
     "dependencies": {
-        "firebase-tools": "9.10.0"
+        "firebase-tools": "9.23.3"
     }
 }
